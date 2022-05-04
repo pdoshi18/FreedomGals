@@ -7,7 +7,7 @@ DEVICE_ID="98bb0735e28656bac098d927d410c3138a4b5bca"
 CLIENT_ID="c8f6be65e48d44d2b20ddf44cc248b7d"
 CLIENT_SECRET="c4d93197142a48429280c0133ba6a5ff"
 
-# Spotify Authentication
+# Spotify Authentication, all info is specific to our group's spotify account
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID,
                                                client_secret=CLIENT_SECRET,
                                                redirect_uri="http://localhost:8080",
