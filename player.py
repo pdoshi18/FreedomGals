@@ -31,19 +31,19 @@ while True:
         
                 # Harry Potter Soundtrack
                 sp.start_playback(device_id=DEVICE_ID, context_uri='spotify:album:6zeHM5CV0CjcS0K8ouWE4N')
-                sleep(2)
+                sleep(4)
         
             elif (id==347334318633):
         
                 # Mr. Ben Classical Music
                 sp.start_playback(device_id=DEVICE_ID, context_uri='spotify:album:3LoPqu7BDmZ0YrfMNNgIOv')
-                sleep(2)
+                sleep(4)
         
             elif (id==487282255466):
         
                 # Views by Drake
                 sp.start_playback(device_id=DEVICE_ID, context_uri='spotify:album:40GMAhriYJRO1rsY4YdrZb')
-                sleep(2)
+                sleep(4)
     except Exception as e:
         print(e)
         pass
